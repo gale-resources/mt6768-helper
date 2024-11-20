@@ -1,0 +1,17 @@
+{
+    "fastboot_unbrick": "**Fastboot unbrick guide**\n\nNote: You need an unlocked bootloader to do this.\n\n1: If your phone is off, hold the power button and the volume down button together to boot to fastboot.\n\n1.1: If your phone is bootlooping, try holding just volume down and let it bootloop into fastboot, if this doesn't work, wait for it to discharge and then get it to fastboot.\n\n2: Download the stock firmware from https://mifirm.net.\n\n3: Extract the firmware to a convenient place.\n\n4: Connect your phone to the PC, open the folder you extracted the firmware to and run the appropiate script to flash your phone.\n\n**Windows**: flash_all.bat\n**Linux**: flash_all.sh\n\n5: After the script finishes, your phone will automatically reboot and should start booting as normal.",
+    "preloader_unbrick": "https://xdaforums.com/t/unbrick-xiaomi-redmi-13c-4g-sp-flash-tool.4675540/",
+    "moon_antibrick": "https://github.com/Apichat1234inwza007/Mt6768thing/releases/download/mt6768/preloader_moon.bin\n\n**Flashing steps**\n\n`adb reboot bootloader`\n`fastboot flash preloader_a preloader_moon.bin`\n`fastboot flash preloader_b preloader_moon.bin`",
+    "imei-backup": "IMEI Backup\n\nhttps://github.com/winbo-yml-exe/mt6768-stuff/raw/refs/heads/main/Imei-Backup-v2.zip",
+    "gapps": "**GApps**\n\nhttps://sourceforge.net/projects/nikgapps/files/Releases/",
+    "force_90hz": "Force 90hz on the Redmi 13C (gale/gust) \n\nhttps://github.com/winbo-yml-exe/mt6768-stuff/raw/refs/heads/main/RealmeUI2Addons.apk",
+    "gaming_modules": "its a fucking mediatek helio g85 \ud83d\udc80",
+    "root": "**How to flash Magisk**\n\n1: Download Magisk app from Google\n\n2: Take the boot.img from the ROM you are currently on and put it \nsomewhere in your phone's storage\n\n3: In Magisk app, click on  Install Magisk > Patch boot.img > locate the boot.img in your storage where you put it\n\nAfter patching, the patched .img will be located in your Storage > Downloads, labeled as \"Patched.img(random numbers and letters)\"\n\n4: Connect your phone to your PC and transfer the patched img on your computer \n\n5: Reboot your phone to bootloader mode\n\n6: Run these commands:\n\n `fastboot flash boot_a (drag patched.img)`\n `fastboot flash boot_b (drag patched.img)`\n\nNow reboot and enjoy!",
+    "adb": "ADB Download (pointless but it was in the Telegram channel so here)\n\nhttps://developer.android.com/tools/releases/platform-tools",
+    "dirtyflash_to_another_os": "you dont \ud83d\udc80",
+    "corepatch": "Core Patch\n\nhttps://github.com/LSPosed/CorePatch",
+    "bypass_hyper_unlock": "Bypass HyperOS Bootloader Unlock restrictions\n\nhttps://xdaforums.com/t/hypersploit-bypass-hyperos-bootloader-unlocking-restrictions.4668775/",
+    "aod_for_13c": "AOD for the Redmi 13C (gale/gust)\n\nhttps://github.com/winbo-yml-exe/mt6768-stuff/raw/refs/heads/main/%5BLLions%5D%20ModdedXGoodies%20v24-Hotfix%20By%20@bobert10%20(1).zip\n\nNotes:\n- Flash via Magisk\n- Needs internet access",
+    "antibrick_preloader": "Redmi 13C Anti-Brick Preloader \n\nhttps://github.com/winbo-yml-exe/mt6768-stuff/raw/refs/heads/main/eng_preloader.bin\n\n**Flashing Steps**\n\n`adb reboot bootloader`\n`fastboot flash preloader_a eng_preloader.bin`\n`fastboot flash preloader_b eng_preloader.bin`",
+    "building_sources": "**Redmi 13C sources**\n\nhttps://github.com/xiaomi-mt6768-devs/"
+}
